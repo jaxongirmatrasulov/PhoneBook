@@ -1,6 +1,13 @@
-﻿namespace PhoneBookApp.Models
+﻿using System;
+using PhoneBookApp.Models;
+
+namespace PhoneBookApp.Models;
+
+public class PhoneBook
 {
-    class PhoneBook
-    {
-    }
+    public string Name;
+    public string PhoneNumber;
+    public int id;
+
 }
+
